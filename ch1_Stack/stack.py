@@ -23,12 +23,16 @@ class Stack:
     def __str__(self):
         return str(self.itmes)
 
+
 if __name__ == '__main__':
     stack = Stack()
     print(stack)
     for i in range(3):
         stack.push(i)
     print(stack)
+
+    print(f'peek top item: {stack.peek()}')
+    print(f'pop one item: {stack.pop()}\nNow: {stack}')
 
 ### Note ###
 # DS in which all insertion and deletions are made at one end, called "top of the stack"
