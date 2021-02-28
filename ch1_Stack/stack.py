@@ -1,6 +1,6 @@
 # implementing Stack data structure
 
-class Stack:
+class stack:
     def __init__(self):
         self.itmes = []
 
@@ -25,7 +25,7 @@ class Stack:
 
 
 if __name__ == '__main__':
-    stack = Stack()
+    stack = stack()
     print(stack)
     for i in range(3):
         stack.push(i)
