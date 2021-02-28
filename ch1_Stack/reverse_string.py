@@ -9,7 +9,7 @@ s = stack.stack()
 for c in string:
     s.push(c)
 
-while s.size() != 0:
+while not s.is_empty():
     reversed_string += s.pop()
 
 print(reversed_string)
