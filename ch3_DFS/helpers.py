@@ -1,3 +1,11 @@
+offsets = {
+    'right': (0, 1),
+    'left': (0, -1),
+    'up': (-1, 0),
+    'down': (1, 0)
+}
+
+
 def read_maze(fileName):
     """
     Reads a maze stored in a text file and returns a 2d list containing the maze representation
@@ -18,7 +26,7 @@ def read_maze(fileName):
         raise SystemExit
 
 
-def is_legal_path(maze, pos):
+def is_legal_pos(maze, pos):
     i, j = pos
     num_rows = len(maze)
     num_cols = len(maze[0])
