@@ -7,3 +7,4 @@
     # 2D indices can be used to access DOM elements
 
 # 2D list = list of lists
+# Maze can be interpreted as graphs -> * as obstacles, ' ' as roads
